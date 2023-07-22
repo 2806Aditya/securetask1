@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+.search-container{
+    display: flex;
+    justify-content: center;
+}
+
+.fox-name{
+    width: 25%; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    align-items: start;
+    margin: 10px; /
+}
+
+.email{
+    width: 25%; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+   
+    margin: 10px; /
+}
+
+.contact{
+    width: 25%; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    
+    margin: 10px; /
+}
+
+  .button-box {
+    background-color: orange;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+
+  .apply-button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .apply-button:hover {
+    background-color: #ff8000; /* Darker orange color on hover */
+  }
+
+  .navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-input {
+    padding: 6px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+    border-radius: 3px 0 0 3px;
+    outline: none;
+  }
+
+  .search-icon {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+  }
+
+  .slideshow-container {
+    display: flex;
+  }
+  
+  .slide {
+    width:100%;
+  }
+  
+  .slide img {
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center; /* Optional: To center the divs on the page */
+  }
+
+  .box {
+    width: 25%; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    background-color: lightblue; /* Add your preferred background color */
+    margin: 5px; /* Add some margin between the divs */
+    text-align: center;
+  }
+
+  .box1,.box3{
+    background-color: #ff8000;
+  }
+
+  .box2,.box4{
+    background-color: black;
+    color:white;
+  }
+
+  .container2{
+    display: flex;
+    justify-content: center;
+  }
+
+  .right{
+    width:50%;
+    margin-left: 30px;
+  }
+
+  .rbox1{
+    display: flex;
+  }
+
+  .rbox2{
+    display:flex;
+  }
+
+  .rbox3{
+    display:flex;
+  }
+
+  .container31{
+    background-image: url("background2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .container3{
+    display:flex;
+    
+  }
+
+  .rimage,.limage{
+    width:40%;
+  }
+
+  .rimage{
+    margin-left:40px;
+  }
+
+  .limage{
+    margin-right:20px;
+  }
+
+  .span{
+    display: flex;
+    margin-left: 350px;
+  }
+
+  .course{
+    align-items: center;
+  }
+
+  .container4{
+    display: flex;
+    justify-content:space-between;
+    overflow:hidden;
+  }
+
+  .container5{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .container6{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .container7{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+  }
