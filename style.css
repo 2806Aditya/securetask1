@@ -8,22 +8,21 @@ body {
 }
 
 .fox-name{
-    width: 25%; /* Adjust the width as needed */
-    height: 100px; /* Adjust the height as needed */
+    width: 25%; 
+    height: 100px; 
     align-items: start;
     margin: 10px; /
 }
 
 .email{
-    width: 25%; /* Adjust the width as needed */
-    height: 100px; /* Adjust the height as needed */
-   
-    margin: 10px; /
+    width: 25%; 
+    height: 100px; 
+    margin: 15px; 
 }
 
 .contact{
-    width: 25%; /* Adjust the width as needed */
-    height: 100px; /* Adjust the height as needed */
+    width: 25%; 
+    height: 100px; 
     
     margin: 10px; /
 }
@@ -47,7 +46,7 @@ body {
   }
 
   .apply-button:hover {
-    background-color: #ff8000; /* Darker orange color on hover */
+    background-color: #ff8000; 
   }
 
   .navbar {
@@ -105,14 +104,14 @@ body {
 
   .container {
     display: flex;
-    justify-content: center; /* Optional: To center the divs on the page */
+    justify-content: center; 
   }
 
   .box {
-    width: 25%; /* Adjust the width as needed */
-    height: 200px; /* Adjust the height as needed */
-    background-color: lightblue; /* Add your preferred background color */
-    margin: 5px; /* Add some margin between the divs */
+    width: 25%; 
+    height: 200px; 
+    background-color: lightblue; 
+    margin: 5px; 
     text-align: center;
   }
 
@@ -148,7 +147,7 @@ body {
   }
 
   .container31{
-    background-image: url("background2.png");
+    background-image: url("normalback.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -211,3 +210,33 @@ body {
     background-color: black;
     color: white;
   }
+
+  .button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.email-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.email-button:hover {
+    background-color: #ff7f00;
+}
+
+
+
+
+
+
+
+
